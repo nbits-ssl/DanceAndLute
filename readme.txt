@@ -6,7 +6,7 @@
 リュートを演奏できるパワー「Play Lute」を追加するシンプルなModです。
 パワー使用時にクロスヘアにいるNPCが演奏に合わせて踊ってくれます。
 宿屋で使用した場合、少額ですが一定間隔でおひねりをもらえます。
-NPCのダンスモーションのため、FNIS必須です。
+必須・PapyrusUtil、FNIS
 
 
 ## 使用方法
@@ -32,7 +32,9 @@ NPCのダンスモーションのため、FNIS必須です。
 ## 必須
 
 * Skyrim OE
-* Fores New Idles in Skyrim - FNIS 
+* Fores New Idles in Skyrim - FNIS
+* PapyrusUtil or SexLab
+
 
 ## アンインストール
 
@@ -42,6 +44,7 @@ NPCのダンスモーションのため、FNIS必須です。
 ## 謝辞
 
 * Bethesda
+* Ashal @ Skyrim SexLab (or PapyrusUtil) & LoversLab
 * fore @ Fores New Idles in Skyrim - FNIS 
 * Leito @ Sensual Dancing (in Animations by Leito)
 
