@@ -3,11 +3,18 @@ Scriptname DLPlayLuteScript extends Quest
 Actor Property TargetActor  Auto  
 Actor Property ActiveTargetActor  Auto  
 GlobalVariable Property DLPlayingLute  Auto  
+Spell Property DLPlayLutePower Auto
 
 Keyword Property LocTypeInn  Auto  
 Keyword Property ActorTypeNPC  Auto  
 MiscObject Property Gold Auto
 Actor Property Player Auto
+
+Event OnInit()
+	if !(Player.HasSpell(DLPlayLutePower))
+		Player.AddSpell(DLPlayLutePower)
+	endif
+EndEvent
 
 Event OnUpdate()
 	if (self._isInInn() && DLPlayingLute.GetValue() != 0)
