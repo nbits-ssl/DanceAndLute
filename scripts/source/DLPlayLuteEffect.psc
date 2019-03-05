@@ -7,7 +7,7 @@ Sound Property DLLuteSound Auto
 GlobalVariable Property DLPlayingLute  Auto  
 
 Event OnEffectStart(Actor akTarget, Actor akCaster)
-	if (DLPlayingLute.GetValue() as int != 0)
+	if (DLPlayingLute.GetValue() != 0)
 		self.finish()
 	else
 		DLPlayLuteScript questScript = (DLPlayLuteQuest as DLPlayLuteScript)
@@ -20,6 +20,11 @@ Event OnEffectStart(Actor akTarget, Actor akCaster)
 			target.SetAngle(0.0, 0.0, player.GetAngleZ())
 			debug.SendAnimationEvent(target, "DLPlayLuteDance")
 			questScript.ActiveTargetActor = target
+		endif
+		
+		Armor shield = akCaster.GetEquippedShield()
+		if (shield)
+			akCaster.UnEquipItem(shield)
 		endif
 		
 		akCaster.PlayIdle(IdleLuteStart)

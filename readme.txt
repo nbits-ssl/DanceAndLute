@@ -48,11 +48,11 @@
 * fore @ Fores New Idles in Skyrim - FNIS 
 * Leito @ Sensual Dancing (in Animations by Leito)
 
-* bbspink Skyrim エロMod晒しスレ
+* 二次元裏＠ふたば スカイリムスレ
 
 
 ## 更新履歴
 
-### 2019/**/**
+### 2019/03/05
 
 * 初回リリース
