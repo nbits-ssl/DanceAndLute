@@ -31,7 +31,7 @@
 
 ## 必須
 
-* Skyrim OE
+* Skyrim SE
 * Fores New Idles in Skyrim - FNIS
 * PapyrusUtil or SexLab
 
@@ -47,11 +47,16 @@
 * Ashal @ Skyrim SexLab (or PapyrusUtil) & LoversLab
 * fore @ Fores New Idles in Skyrim - FNIS 
 * Leito @ Sensual Dancing (in Animations by Leito)
+* Cathedral Assets Optimizer @ G_k
 
 * 二次元裏＠ふたば スカイリムスレ
 
 
 ## 更新履歴
+
+### 2020/04/16
+
+* モーションをSE変換
 
 ### 2019/03/05
 
